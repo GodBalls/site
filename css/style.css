@@ -239,6 +239,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .h-last {
@@ -246,6 +248,7 @@ body {
   font-size: 20px;
   line-height: 32px;
   margin-right: 126px;
+  margin-bottom: 30px;
 }
 
 .h-last a {
@@ -277,15 +280,14 @@ body {
   margin-bottom: 60px;
 }
 
-.container-last-works button:hover {
-  background-color: #9e9fa5;
-  content: 'Flipped';
-}
-
 .button-test {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.button-test button:hover {
+  background-color: #9e9fa5;
 }
 
 .last-works-button {
@@ -310,6 +312,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .confidence-text {
@@ -353,6 +357,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .blog-container h1 {
@@ -445,6 +451,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 100px;
   margin-top: 100px;
 }
